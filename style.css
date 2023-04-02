@@ -269,5 +269,87 @@ content: "";
 clear: both;
 display: table;
 }
-  
+  /* cart  */
+  .sub-header{
+margin-left: 30px;
+margin-top: 30px;
+  }
+  .container{
+    padding:20px 20px;
+    margin-left:  100px ;
+    margin-right: 100px;
+  }
+  #cart-container table{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+  }
+  #cart-container table thead{
+    font-weight: 700;
 
+  }
+  #cart-container table thead td{
+    background-color: #fd8c66;
+    color: #fff;
+    padding: 15px 0px;
+  }
+  #cart-container table td{
+    border: 1px solid;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .cart-body {
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+   
+  }
+  .cart-p1{
+    width: 30%;
+  
+  }
+  #cart-container table thead td i{
+    color: #524c4c;
+  }
+  #cart-bottom{
+    display: flex;
+    float: right;
+    margin-right: 0px;
+    
+  }
+  #voucher-head{
+    background-color:#fd8c66;
+    color: #fff;
+  }
+  #total-box{
+    border: 1px solid #524c4c;
+    padding: 5px;
+    margin-right: 0px;
+    float: right;
+    
+ 
+  }
+  .basket-title{
+    background-color: #fd8c66;
+    color: #fff;
+  }
+  .buy-btn{
+    float: right;
+    margin-right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+   padding: 20px;
+   background-color: #fd8c66;
+   color: #fff;
+   border-radius: 30px;
+  
+    
+  }
+  .bottom-content{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+ 
+
+ 

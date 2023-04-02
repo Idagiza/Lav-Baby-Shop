@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <script src="script.js"></script>
+    <section id="header">
+        <h1>
+            Lav_Baby_Shop
+        </h1>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+               <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+
+
+
+
+            </ul>
+        </div>
+
+    </section>
+    <div class="sub-header">
+    <h3 >
+        shopping cart
+    </h3>
+    <hr width="9%", color="orange">
+</div>
+    <section id="cart-container" class="container" >
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Total</td>
+                </tr>
+            </thead>
+            <tbody class="cart-body">
+                <tr>
+                <td><a href="#" ><i class="fa-solid fa-trash-can"></i></a></td>
+                <td><img src="images/blue-sweater.jpg" class="cart-p1"></td>
+                <td><p>Blue sweater</p></td>
+                <td><span>Sh 220.00</span></td>
+                <td><input type="number" value="1"></td>
+                <td><span>sh 220.00</span></td>
+                </tr>
+                <tr>
+                    <td><a href="#" ><i class="fa-solid fa-trash-can"></i></a></td>
+                    <td><img src="images/blue-sweater.jpg" class="cart-p1"></td>
+                    <td><p>Blue sweater</p></td>
+                    <td><span>Sh 220.00</span></td>
+                    <td><input type="number" value="1"></td>
+                    <td><span>sh 220.00</span></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" ><i class="fa-solid fa-trash-can"></i></a></td>
+                        <td><img src="images/blue-sweater.jpg" class="cart-p1"></td>
+                        <td><p>Blue sweater</p></td>
+                        <td><span>Sh 220.00</span></td>
+                        <td><input type="number" value="1"></td>
+                        <td><span>sh 220.00</span></td>
+                        </tr>
+               
+            </tbody>
+            
+
+
+        </table>
+
+
+    </section>
+    <section id="cart-bottom" >
+        <div class="container">
+                <div id="voucher">
+                     <h5 id="voucher-head">Add a voucher code </h5>
+                    <input type="text" name="Add a Voucher code">
+                </div>
+            <div id="total-box">
+                <div class="basket-title">
+                <h5>Total</h5>
+                <hr>
+                </div>
+
+                <div class="basket">
+                    <label>Basket</label>
+                    <hr>
+                </div>
+                <div class="basket">
+                    <label>Basket Total:&nbsp;</label>
+                    
+                    <input type="number" name="KES" >
+                    
+                </div>
+                <div class="basket">
+                    <hr>
+                    <label>Delivery</label>
+                    <hr>
+                </div>
+                <div class="basket">
+                    <label>Shipping:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    
+                    <input type="number" name="KES">
+                   
+                </div>
+                <div class="basket">
+                    <label>Order Total:&nbsp;</label>&nbsp;
+                    <input type="number" >
+                </div>
+               
+            </div>
+            
+        </div>
+        
+
+    </section>
+    <section>
+        <div class="buy-btn">
+            <button>Proceed To Checkout</button>
+        </div>
+    </section>
+    
+</body>
+</html>
